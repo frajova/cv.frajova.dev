@@ -1,6 +1,7 @@
 # Credits
 
 [Bartosz Jarocki](https://github.com/BartoszJarocki/cv/)
+[Jesus Santander](https://github.com/jsantanders)
 
 # Minimalist CV
 
