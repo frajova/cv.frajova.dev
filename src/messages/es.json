@@ -1,95 +1,56 @@
 {
-    "name": "Jesus Santander",
+    "name": "Francisco Valloire",
     "sections": {
       "about": "Acerca de",
       "workExperience": "Experiencia Laboral",
       "education": "Educación",
-      "certifications": "Certificaciones",
-      "publications": "Publicaciones",
-      "skills": "Habilidades",
-      "projects": "Proyectos"
+      "skills": "Habilidades"
     },
-    "about": "Ingeniero de Software Senior especializado en Node, React y .NET. Entusiasta de los sistemas distribuidos.",
-    "summary": "Soy un experimentado desarrollador web full-stack con más de 7 años de experiencia en arquitecturas escalables, cómputo distribuido, infraestructura en la nube y aplicaciones web. Competente en .NET, Node, Azure y React. Curioso, auto-motivado, e interesado en aprender y dominar nuevas tecnologías para superar desafíos únicos.",
+    "about": "React | React Native | Web Developer | App Developer",
+    "summary": "Soy un desarrollador software con seis años de experiencia, enfocado en el desarrollo frontend y liderazgo de equipos. Comprometido con la excelencia técnica y la entrega eficiente de proyectos. Apasionado por impulsar la innovación y el éxito en el desarrollo de software.",
     "education": {
       "bachelor": {
-        "school": "Universidad de Carabobo",
-        "degree": "Ingeniero en Telecomunicaciones"
-      },
-      "master": {
-        "school": "Universidad de Carabobo",
-        "degree": "MSc. en Matemáticas Aplicadas"
-      }
-    },
-    "certifications": {
-      "azure": {
-        "issuer": "Microsoft",
-        "title": "Desarrollador de Azure - Asociado"
-      }
-    },
-    "publications": {
-      "1": {
-        "title": "Carta al editor: Procedimiento de acceso a los datos de la misión ERS y ENVISAT a través del portal de la ESA y la herramienta interactiva EOLI-SA",
-        "publisher": "Revista Ingeniería UC"
+        "school": "Universidad Tecnologica Nacional",
+        "degree": "Ingeniero en Sistemas de Información"
       }
     },
     "work": {
       "laika": {
-        "title": "Ingeniero de Software Senior",
+        "title": "Technical Leader",
         "description": {
-          "1": "Elaboré un plan integral de migración de microservicios para desmantelar un sistema monolítico, mejorando la confiabilidad.",
-          "2": "Optimicé la calidad, precisión y tiempo de respuesta de la búsqueda de productos implementando Algolia como servicio de búsqueda.",
-          "3": "Desarrollé un sistema de recomendación colaborativa, aumentando las ventas y mejorando la visibilidad de los productos."
+          "1": "I am currently working as a technical lead at Laika, where I am responsible for leading teams of developers in the creation of new features.",
+          "2": "My responsibilities include, but are not limited to: managing team members' work schedules; providing guidance on how to best use tools and technology in order to achieve project goals; reviewing code before it is released; communicating with stakeholders throughout the project lifecycle; reviewing results of team members' work; ensuring team members are understanding their roles within the organization so they can be better contributors."
         }
       },
-      "microsoft": {
-        "title": "Ingeniero de Software Senior",
+      "neta": {
+        "title": "Ingeniero de Software - Lider Técnico",
         "description": {
-          "1": "Creado componentes críticos en React para el nuevo sitio MVP centrado en accesibilidad y rendimiento.",
-          "2": "Establecí índices de Azure Cognitive Search, mejorando la precisión de las consultas basadas en texto.",
-          "3": "Mejoré el rendimiento de la aplicación Microsoft MVP optimizando consultas de Entity Framework, minimizando la recuperación de datos de la base de datos y la transmisión de datos del lado del cliente para una mayor eficiencia."
+          "1": "Colaboré en el desarrollo del MVP, creando los primeros componentes esenciales para el proyecto.",
+          "2": "Contribuí activamente en la toma de decisiones arquitectónicas y en la implementación de mejores prácticas de desarrollo.",
+          "3": "Colaboré en la contratación y capacitación de nuevos miembros del equipo tecnológico.",
+          "4": "Participé en la planificación y ejecución de estrategias de crecimiento técnico y optimización de procesos.",
+          "5": "Trabajé en estrecha colaboración con diseñadores, backend y otros equipos para garantizar una integración y entrega sin problemas.",
+          "6": "Desarrollé y mantuve código limpio y eficiente, asegurando la escalabilidad y mantenibilidad del sistema."
         }
       },
-      "alphas": {
-        "title": "Ing. de Software Senior → Ing. de Software Líder",
-        "description": {
-          "1": "Aceleré el procesamiento de datos de minutos a segundos optimizando sistemas distribuidos con RabbitMQ y MassTransit, mejorando la eficiencia operativa.",
-          "2": "Refactoricé sistemas heredados en microservicios modernos utilizando tecnologías de Azure como App Service, Storage, Service Bus, Functions, CosmosDB y Active Directory, mejorando el rendimiento del sistema hasta un 40%.",
-          "3": "Transferí una API HTTP de una máquina virtual a Azure App Service, reduciendo los costos de infraestructura en aproximadamente un 15%."
-        }
-      },
-      "ferrisoft": {
+      "mercadolibre": {
         "title": "Ingeniero de Software",
         "description": {
-          "1": "Implementé un servicio WCF de terceros asegurado con un certificado SSL para cumplir con una institución gubernamental.",
-          "2": "Mejoré el rendimiento de Entity Framework en un 30%, eliminando el seguimiento innecesario en consultas de solo lectura."
+          "1": "Desarrollé productos clave como Garantía Extendida (GarEx) y Robo y Daño (RoDa) en el equipo Insurtech.",
+          "2": "Participé en todas las etapas del ciclo de vida del desarrollo de software, desde la concepción hasta la implementación y mantenimiento.",
+          "3": "Trabajé en la expansión de productos en mercados internacionales, incluyendo Brasil (MLB), Argentina (MLA) y México (MLM).",
+          "4": "Colaboré estrechamente con equipos multidisciplinarios para asegurar la alineación con los objetivos del negocio y las expectativas de los clientes.",
+          "5": "Implementé mejores prácticas de desarrollo y contribuí a la innovación tecnológica dentro del equipo."
         }
       },
-      "navicu": {
-        "title": "Ingeniero de Software",
+      "ecloud": {
+        "title": "Desarrollador de Software",
         "description": {
-          "1": "Desarrollé BFFs (Backend For Frontend) en Node.js para aplicaciones web y móviles, personalizando clientes de API según sus requisitos específicos."
+          "1": "Contribuí al desarrollo de aplicaciones web para startups en los Estados Unidos.",
+          "2": "Trabajé en un entorno ágil (SCRUM), participando en reuniones diarias y sprints para la entrega eficiente de productos.",
+          "3": "Utilicé tecnologías como React, Redux, TypeScript, para crear interfaces de usuario modernas y atractivas.",
+          "4": "Colaboré estrechamente con diseñadores y otros miembros del equipo para asegurar la implementación precisa de diseños y la mejor experiencia de usuario posible."
         }
-      },
-      "tecfenix": {
-        "title": "Ingeniero de Software",
-        "description": {
-          "1": "Logré una mejora del 20% en el rendimiento migrando una API de backend de .NET Framework a .NET Core 1.1."
-        }
-      }
-    },
-    "projects": {
-      "blog": {
-        "title": "jsantanders.dev",
-        "description": "Mi sitio web personal y blog. Construido con Next.js y MDX."
-      },
-      "learning": {
-        "title": "learning.jsantanders.dev",
-        "description": "Soluciones a problemas encontrados en los libros que estoy leyendo."
-      },
-      "ddd": {
-        "title": "modular-monolith-nestjs",
-        "description": "Una aplicación Monolítica Modular con enfoque en Diseño Dirigido por Dominio. Utilizando NestJS como marco backend."
       }
     },
     "switcher": {

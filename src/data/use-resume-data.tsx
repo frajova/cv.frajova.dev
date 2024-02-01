@@ -1,81 +1,43 @@
 import LaikaLogo from "@/images/logos/laika-logo.png";
-import MicrosoftLogo from "@/images/logos/microsoft-logo.png";
-import AlphasLogo from "@/images/logos/alphas-logo.png";
-import FerrisoftLogo from "@/images/logos/ferrisoft-logo.png";
-import NavicuLogo from "@/images/logos/navicu-logo.png";
-import TecFenixLogo from "@/images/logos/tecfenix-logo.png";
-import UniversityOfCaraboboLogo from "@/images/logos/uc.png";
-import AzureDeveloperBadge from "@/images/logos/microsoft-certified-associate-badge.svg";
-import { GitHubLogoIcon, HomeIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import NetaLogo from "@/images/logos/neta-logo.png";
+import MercadoLibre from "@/images/logos/mercadolibre-logo.png";
+import EcloudLogo from "@/images/logos/ecloud-logo.png";
+import NationalTecnolgyUniversity from "@/images/logos/utn-logo.png";
+import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import { useTranslations } from "next-intl";
 
 export const useResumeData = () => {
   const t = useTranslations();
 
   return {
-    name: "Jesus Santander",
-    initials: "JS",
-    location: "Valencia, VE, EST",
+    name: "Francisco Valloire",
+    locationLink: "https://www.google.com/maps/place/Argentina",
+    initials: "FV",
+    location: "Argentina, ARG",
     about: t("about"),
     summary: t("summary"),
-    locationLink: "https://www.google.com/maps/place/Valencia,+Carabobo,+Venezuela",
-    avatarUrl: "https://avatars.githubusercontent.com/u/15827589?v=4",
-    personalWebsiteUrl: "https://jsantanders.dev",
+    avatarUrl: "https://avatars.githubusercontent.com/u/9573495?s=400&u=16891b148c882c7d8d97a809e46a17016ad81b60&v=4",
     contact: {
       social: [
         {
           name: "GitHub",
-          url: "https://github.com/jsantanders",
+          url: "https://github.com/frajova",
           icon: GitHubLogoIcon,
         },
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/jsantanders/",
+          url: "https://www.linkedin.com/in/frajova/",
           icon: LinkedInLogoIcon,
-        },
-        {
-          name: "X",
-          url: "https://x.com/jsantanders",
-          icon: TwitterLogoIcon,
-        },
-        {
-          name: "Website",
-          url: "https://jsantanders.dev",
-          icon: HomeIcon,
         },
       ],
     },
     education: [
       {
-        school: t("education.master.school"),
-        degree: t("education.master.degree"),
-        start: "2022",
-        end: t("present"),
-        logo: UniversityOfCaraboboLogo,
-      },
-      {
         school: t("education.bachelor.school"),
         degree: t("education.bachelor.degree"),
-        start: "2010",
-        end: "2015",
-        logo: UniversityOfCaraboboLogo,
-      },
-    ],
-    certifications: [
-      {
-        issuer: t("certifications.azure.issuer"),
-        date: "2023",
-        title: t("certifications.azure.title"),
-        badge: AzureDeveloperBadge,
-        link: "https://learn.microsoft.com/api/credentials/share/en-us/jsantanders/99E494EC83B32890?sharingId=889F6D6C033C9537",
-      },
-    ],
-    publications: [
-      {
-        title: t("publications.1.title"),
-        publisher: t("publications.1.publisher"),
-        date: "Aug 1, 2017",
-        link: "https://www.researchgate.net/publication/321062609_Procedure_for_access_to_the_ERS_and_ENVISAT_mission_data_through_the_ESA_portal_and_the_interactive_tool_EOLI-SA",
+        start: "2014",
+        end: "2017",
+        logo: NationalTecnolgyUniversity,
       },
     ],
     work: [
@@ -85,110 +47,66 @@ export const useResumeData = () => {
         badges: ["Remote"],
         title: t("work.laika.title"),
         logo: LaikaLogo,
-        start: "Oct 2022",
+        start: "October 2022",
         end: t("present"),
         description: [
           t("work.laika.description.1"),
           t("work.laika.description.2"),
-          t("work.laika.description.3"),
         ],
       },
       {
-        company: "Microsoft",
-        link: "https://www.linkedin.com/company/microsoft",
-        badges: ["Remote", "Vendor"],
-        title: t("work.microsoft.title"),
-        logo: MicrosoftLogo,
-        start: "Apr 2021",
-        end: "Sep 2022",
-        description: [
-          t("work.microsoft.description.1"),
-          t("work.microsoft.description.2"),
-          t("work.microsoft.description.3"),
-        ],
-      },
-      {
-        company: "Alphas",
-        link: "https://alphasremote.team/",
+        company: "Neta",
+        link: "https://www.linkedin.com/company/neta-mx/",
         badges: ["Remote"],
-        title: t("work.alphas.title"),
-        logo: AlphasLogo,
-        start: "Jun 2019",
-        end: "Mar 2021",
+        title: t("work.neta.title"),
+        logo: NetaLogo,
+        start: "January 2022",
+        end: "October 2022",
         description: [
-          t("work.alphas.description.1"),
-          t("work.alphas.description.2"),
-          t("work.alphas.description.3"),
+          t("work.neta.description.1"),
+          t("work.neta.description.2"),
+          t("work.neta.description.3"),
+          t("work.neta.description.4"),
+          t("work.neta.description.5"),
+          t("work.neta.description.6"),
         ],
       },
       {
-        company: "Ferrisoft",
-        badges: [],
-        link: "https://www.linkedin.com/company/ferrisoft/",
-        title: t("work.ferrisoft.title"),
-        logo: FerrisoftLogo,
-        start: "Jan 2018",
-        end: "May 2019",
-        description: [t("work.ferrisoft.description.1"), t("work.ferrisoft.description.2")],
+        company: "Mercado Libre",
+        link: "https://www.mercadolibre.com.ar/",
+        badges: ["Remote"],
+        title: t("work.mercadolibre.title"),
+        logo: MercadoLibre,
+        start: "June 2021",
+        end: "January 2022",
+        description: [
+          t("work.mercadolibre.description.1"),
+          t("work.mercadolibre.description.2"),
+          t("work.mercadolibre.description.3"),
+          t("work.mercadolibre.description.4"),
+          t("work.mercadolibre.description.5"),
+        ],
       },
       {
-        company: "Navicu",
-        badges: [],
-        link: "https://navicu.com/",
-        title: t("work.ferrisoft.title"),
-        logo: NavicuLogo,
-        start: "Jan 2017",
-        end: "Dec 2017",
-        description: [t("work.navicu.description.1")],
-      },
-      {
-        company: "Tecfenix",
-        badges: [],
-        link: "http://www.tecfenix.com/",
-        title: t("work.tecfenix.title"),
-        logo: TecFenixLogo,
-        start: "Jan 206",
-        end: "Dec 2016",
-        description: [t("work.tecfenix.description.1")],
+        company: "eCloud",
+        badges: ["On-site" ,"Remote"],
+        link: "https://www.linkedin.com/company/ecloudagency/",
+        title: t("work.ecloud.title"),
+        logo: EcloudLogo,
+        start: "May 2019",
+        end: "June 2021",
+        description: [
+          t("work.ecloud.description.1"), 
+          t("work.ecloud.description.2"),
+          t("work.ecloud.description.3"),
+          t("work.ecloud.description.4")
+        ],
       },
     ],
     skills: [
       "JavaScript",
       "TypeScript",
-      "React/Next.js/Remix",
-      "Node.js",
-      ".NET/C#/ASP.NET",
-      "Go",
-      "Rust",
-    ],
-    projects: [
-      {
-        title: t("projects.blog.title"),
-        techStack: ["Side Project", "TypeScript", "Next.js", "MDX"],
-        description: t("projects.blog.description"),
-        link: {
-          label: "jsantanders.dev",
-          href: "https://jsantanders.dev/",
-        },
-      },
-      {
-        title: t("projects.learning.title"),
-        techStack: ["Side Project", "Quarto", "R", "Statistics"],
-        description: t("projects.learning.description"),
-        link: {
-          label: "learning.jsantanders.dev",
-          href: "https://learning.jsantanders.dev/",
-        },
-      },
-      {
-        title: t("projects.ddd.title"),
-        techStack: ["Side Project", "Nest.js", "DDD", "CQRS"],
-        description: t("projects.ddd.description"),
-        link: {
-          label: "github.com",
-          href: "https://github.com/jsantanders/modular-monolith-nestjs",
-        },
-      },
+      "React/Next.js",
     ],
   } as const;
 };
